@@ -50,7 +50,6 @@ const Modal: FC<ModalProps> = ({
     if (disabled) {
       return; // 비활성화
     }
-    console.log("👉  onSubmit:", onSubmit);
     onSubmit();
   }, [disabled, onSubmit]);
 
